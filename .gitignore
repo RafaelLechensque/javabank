@@ -4,6 +4,12 @@ target/
 !**/src/main/**/target/
 !**/src/test/**/target/
 
+.env
+
+postgres_data/
+
+pgadmin_data/
+
 ### STS ###
 .apt_generated
 .classpath

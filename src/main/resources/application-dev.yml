@@ -2,9 +2,10 @@ spring:
   application:
     name: javabank
   datasource:
-    url: jdbc:postgresql://localhost:${POSTGRES_PORT}/${POSTGRES_DB}
-    username: ${POSTGRES_USER}
-    password: ${POSTGRES_PASSWORD}
+    url: jdbc:postgresql://localhost:5432/javabank
+    username: postgres
+    password: sua_senha
+    driver-class-name: org.postgresql.Driver
 
   jpa:
     hibernate:
